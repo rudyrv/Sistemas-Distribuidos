@@ -1,0 +1,30 @@
+body {
+  background-color: #2ABB99;
+  color: #ECEFF1;
+}
+
+#titulo {
+  background-color: #5C6BC0;
+}
+
+tr:nth-child(even){
+  background: #FF9900;
+}
+
+tr:nth-child(odd){
+  background: #FF6600;
+}
+
+#head{
+  z-index: 100px;
+  margin-top: 20px;
+}
+
+#btnn{
+  background: #5C6BC0;
+  color: #ECEFF1;
+}
+
+#msgbar{
+  margin-left: 10px;
+}

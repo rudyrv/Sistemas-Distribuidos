@@ -1,0 +1,98 @@
+/* CSS declarations go here */
+
+body{
+
+  margin: auto;
+	width: 100%;
+	height: 100%;
+	background: white; /* Old browsers */
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#todo{
+  background: white;
+}
+header{
+  background: #3F51B5;
+  margin-bottom: none;
+  position: fixed;
+  width: 100%;
+  height: 258px;
+}
+
+h1{
+  padding-left: 50px;
+  padding-top: 20px;
+  font-weight: 500;
+  position: relative;
+  color: white;
+}
+
+form{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+input{
+  border: none;
+  padding-bottom: 5px;
+  width: 350px;
+  height: 40px;
+  font-size: 20px;
+  background: transparent;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border-bottom: 2px solid #FF6E40;
+}
+input:focus{
+  outline: none;
+  color: white;
+}
+#lista{
+  list-style-type: none;
+  padding:0;
+  margin: 0;
+  padding-left: 0px;
+  position: relative;
+  top: 259px;
+  background: white;
+}
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+  color: #FF6E40;
+}
+
+li{
+  position: relative;
+  padding: 15px;
+  height: 40px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  width: auto;
+
+}
+li .text {
+  margin-left: 10px;
+
+
+}
+li.checked {
+  color: #888;
+}
+
+li.checked .text {
+  text-decoration: line-through;
+}
+
+li .toggle-checked{
+  width: 20px;
+  height: 20px;
+  margin-bottom:0;
+}
